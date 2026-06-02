@@ -1,8 +1,7 @@
 ---
-title: Welcome to Quartz
+title: 这里是PPR的博客
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
-博客同步： npx quartz sync
+这是我个人的技术博客，用来分享和记录自己的一些技术文档和仔细整理过的论文~
+
