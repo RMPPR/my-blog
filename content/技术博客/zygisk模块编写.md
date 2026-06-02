@@ -283,3 +283,5 @@ adb logcat -s MyModule
 ```
 rm -rf /data/adb/modules/my_emuhook
 ```
+
+todo：尝试编写hook逻辑
