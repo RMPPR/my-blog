@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: RMPPR.github.io/quartz
+  baseUrl: RMPPR.github.io/my-blog
   ignorePatterns:
     - private
     - templates
