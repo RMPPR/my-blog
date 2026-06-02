@@ -20,10 +20,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Install Dependencies
+          
+      - name: Install Node Dependencies
         run: npm ci
+        
+      # 👇 就是之前被我漏掉的、至关重要的一步！
+      - name: Install Quartz Plugins
+        run: npx quartz plugin install
+        
       - name: Build Quartz
         run: npx quartz build
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
